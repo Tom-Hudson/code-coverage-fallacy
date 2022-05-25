@@ -1,0 +1,35 @@
+{
+  "name": "code-coverage-fallacy",
+  "version": "1.0.0",
+  "description": "A repo designed to highlight how code coverage is arbitrary",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tom-Hudson/code-coverage-fallacy.git"
+  },
+  "keywords": [
+    "code",
+    "coverage",
+    "testing",
+    "jest",
+    "unit",
+    "testing",
+    "unit",
+    "tests"
+  ],
+  "author": "Tom Hudson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tom-Hudson/code-coverage-fallacy/issues"
+  },
+  "homepage": "https://github.com/Tom-Hudson/code-coverage-fallacy#readme",
+  "dependencies": {
+    "jest": "^28.1.0"
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}
