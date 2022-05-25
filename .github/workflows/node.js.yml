@@ -7,20 +7,20 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  run-coverage:
 
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
-    - name: test
+    - name: run test coverage
       uses: actions/setup-node@v3
       with:
         node-version: 16.x
         cache: 'npm'
     - run: npm ci
     - run: npm test
-    - name: Upload coverage to Codecov
+    - name: upload coverage to Codecov
       uses: codecov/codecov-action@v2
       with:
         verbose: true

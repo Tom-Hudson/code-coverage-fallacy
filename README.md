@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/Tom-Hudson/code-coverage-fallacy/branch/master/graph/badge.svg?token=CN7SGC3J3F)](https://codecov.io/gh/Tom-Hudson/code-coverage-fallacy)
+
 # Code Coveage Fallacy
 This repo is designed to highlight the fallacies of having 100% code coverage.
 
