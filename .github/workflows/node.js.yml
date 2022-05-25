@@ -18,8 +18,8 @@ jobs:
       with:
         node-version: 16.x
         cache: 'npm'
-      run: npm ci
-      run: npm test
+    - run: npm ci
+    - run: npm test
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v2
       with:
